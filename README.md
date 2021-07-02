@@ -1,2 +1,2 @@
 # calculator
-oasd
+Calculator app made with HTML, CSS, and JavaScript. 
