@@ -13,10 +13,16 @@
             <div class="title">
                 <h1>Simple Calculator</h1>
                 <p>This calculator is made with HTML, CSS, and JavaScript, all vanilla. 
-                    I made this calculator as a practice for my JavaScript. 
-                    For now, the calculator only supports one digit operation.
-                    This calculator uses stack to change infix operations into postfix and then evaluate it.
+                    I made this calculator as a practice for my JavaScript.
+                    This calculator uses stack to change infix operations into postfix and then evaluates it.
                 </p>
+                <P>
+                    Why use stack? Computers don't know how to count using PEMDAS (parenthesis, exponents, multiplication, division, addition, subtraction), or simply the orders of counting.
+                    Given 4+2*3, the result will be 10 by using PEMDAS, and it all happens in our head. Us humans have intuition to determine the operator precedence/priority, but the computer doesn't.
+                    That's why stack is used. The operation is first converted from infix into postfix. Infix operations are the operations that we use daily, where the operators are inside the operand (4+2*3), 
+                    and postfix operations have the operators after the operand (423*+). Convertion is needed as postfix operations does not need any parenthesis at all, it is already in order and is fast to be processed.
+                    The next step is just evaluating it by using basic operations.
+                </P>
             </div>
         </div>
         <div class="calc-section">
