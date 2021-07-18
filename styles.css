@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;900&display=swap');
+/* 
+font-family: 'Montserrat', sans-serif; 
+font-family: 'Inter', sans-serif;
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.text-section{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    margin: 30px 0;
+    padding: 50px 0 0 50px;
+    text-align: center;
+    width: 50%;
+}
+.text-section p{
+    color: grey;
+}
+.calc-section{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+.calc-body{
+    background-color: #CDF0EA;
+    border: 5px solid black;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+    padding: 10px;
+}
+.display{
+    background-color: #F9F9F9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    text-align: right;
+}
+#history{
+    align-items: center;
+    background-color: none;
+    font-size: 1.3rem;
+    justify-content: center;
+    height: 50%;
+    padding: 0px 10px;
+    margin: 0;
+    max-width: 300px;
+    word-break: break-all;
+}
+#result{
+    background-color: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    height: 50%;
+    margin: 0;
+    max-width: 300px;
+    padding: 0px 10px 20px 0px;
+    word-break: break-all;
+}
+.button{
+    background-color: #F6C6EA;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 550;
+    height: 65px;
+    margin: 10px;
+    width: 65px;
+}
+.button:hover{
+    background-color: #C490E4;
+}
+
+.button-section{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 888px) {
+    .container{
+        flex-direction: column;
+    }
+    .text-section{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+    .calc-section{
+        width: 100%;
+        height: 100%;
+    }
+}

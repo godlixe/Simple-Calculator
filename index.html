@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="text-section">
+            <div class="title">
+                <h1>Simple Calculator</h1>
+                <p>This calculator is made with HTML, CSS, and JavaScript, all vanilla. 
+                    I made this calculator as a practice for my JavaScript. 
+                    For now, the calculator only supports one digit operation.
+                    This calculator uses stack to change infix operations into postfix and then evaluate it.
+                </p>
+            </div>
+        </div>
+        <div class="calc-section">
+            <div class="calc-body">
+                <div class="display">
+                    <div id="history">
+                        <p>0</p>
+                    </div>
+                    <div id="result">
+                        <p>0</p>
+                    </div>
+                </div>
+                <div class="button-section">
+                    <button id="btn-9" class="button num">9</button>
+                    <button id="btn-8" class="button num">8</button>
+                    <button id="btn-7" class="button num">7</button>
+                    <button id="btn-+" class="button oper">+</button>
+                </div>
+                <div class="button-section">
+                    <button id="btn-6" class="button num">6</button>
+                    <button id="btn-5" class="button num">5</button>
+                    <button id="btn-4" class="button num">4</button>
+                    <button id="btn--" class="button oper">-</button>
+                </div>
+                <div class="button-section">
+                    <button id="btn-3" class="button num">3</button>
+                    <button id="btn-2" class="button num">2</button>
+                    <button id="btn-1" class="button num">1</button>
+                    <button id="btn-x" class="button oper">*</button>
+                </div>
+                <div class="button-section">
+                    <button id="btn-c" class="button del">C</button>
+                    <button id="btn-0" class="button num">0</button>
+                    <button id="btn-/" class="button oper">/</button>
+                    <button id="btn-=" class="button eq">=</button>
+                </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
